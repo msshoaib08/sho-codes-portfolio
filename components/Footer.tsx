@@ -2,7 +2,7 @@ import React from 'react';
 import MagicButton from './ui/MagicButton';
 import { FaLocationArrow } from 'react-icons/fa';
 import { socialMedia } from '@/data';
-import { profile } from 'console';
+// import { profile } from 'console';
 
 const Footer = () => {
 	return (
@@ -47,7 +47,7 @@ const Footer = () => {
 							target="_blank"
 							className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-lg border-black-300"
 						>
-							<img src={profile.img} width={20} height={20} />
+							<img src={profile.img} alt="profile-img" width={20} height={20} />
 						</a>
 					))}
 				</div>
